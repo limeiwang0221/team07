@@ -89,3 +89,21 @@ header {
 
 .nav-cont {
   flex: 1; }
+
+footer {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #CFCFCF; }
+  footer a {
+    flex: 1;
+    text-align: center;
+    color: #666666; }
+    footer a i.icon {
+      font-size: .48rem; }
+    footer a span {
+      font-size: .24rem;
+      display: block; }
+    footer a.active {
+      color: #FF296D; }
